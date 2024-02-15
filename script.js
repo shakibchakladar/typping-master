@@ -72,6 +72,7 @@ function playAgain(){
    scoreSec.classList.add('hidden');
    document.getElementById('play-ground').classList.remove('hidden');
    document.getElementById('current-life').innerText=3;
+   document.getElementById('current-score').innerText=0;
 }
 
  document.addEventListener('keyup', handleKeyBoardKeyUpEvent)
